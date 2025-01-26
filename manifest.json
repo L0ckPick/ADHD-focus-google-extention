@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Focus Helper",
+  "version": "1.0",
+  "description": "Helps people with ADHD focus with music, reminders, and breaks.",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon-16.png"
+    }
+  },
+  "host_permissions": [
+    "https://www.youtube.com/*"
+  ]
+}
